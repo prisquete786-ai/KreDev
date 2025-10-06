@@ -1,0 +1,21 @@
+.body {
+    background: image url("fondoEspacio\ \(1\).jpg");
+    background-color: blueviolet;
+    background: repeat;
+}
+
+.opc {
+background-color: aliceblue;
+}
+
+.titulo{
+    background-color:white;
+    font: size 200pxpx;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.acerca{
+    background-color: beige;
+}

@@ -1,0 +1,31 @@
+body {
+    background-color: yellow;
+    background-image: url("fondoOjo.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+.opc {
+    background-color: blue;
+    font-size: 40px;
+    color: azure;
+}
+
+.titulo {
+    background-color: chartreuse;
+    font-size: 30px;
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.acerca {
+    background-color: burlywood;
+    color: red;
+}
+h1{
+    color: brown;
+    font-size: 70px;
+    text-align: center;
+}
