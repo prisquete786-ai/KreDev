@@ -2,8 +2,8 @@ saludar = function () {
     //recuptar el valor de la caja de texto txtNombre
     let nombre = recuperarTexto("textNombre");
     //recuptar el valor de la caja de texto txtApellido
-    let pellido = recuperarTexto("textApellido");
-    console.log(nombre);
+    let apellido = recuperarTexto("textApellido");
+
 
     let Edad = recuperarInt("textEdad");
 
@@ -11,29 +11,15 @@ saludar = function () {
     let Estatura = recuperarfloat("textEstatura");
 
 
+    let mensajeBienvenido = "Bienvenido" + nombre + " " + apellido;
+
+
+    mostrarTrexto("lblResutado", mensajeBienvenido);
+
+
+    mostrarImagen("imagenesSaludo", "./imagenes/40jt.gif");
+
+
+    mostrarTrextoEnCaja("textNombre", "");
 }
 
-
-
-recuperarTexto = function (idComponente) {
-    let Componente;
-    let valorIgresado;
-    Componente = document.getElementById(idComponente);
-    valorIgresado = Componente.value;
-    return valorIgresado;
-}
-
-recuperarInt = function (idComponente) {
-    let valorcaja = recuperarTexto(idComponente);
-    let valorEntero = parseInt(valorcaja);
-    return valorEntero;
-
-}
-
-
-recuperarfloat = function (idComponente) {
-    let valorcaja = recuperarTexto(idComponente);
-    let valorflotante = parseFloat(valorcaja);
-    return valorflotante;
-
-}
